@@ -1,5 +1,5 @@
 # Challenge Dasa - Google Cloud
-[![Dasa & Gesto](https://i.imgur.com/BNvzBDfm.png "Dasa & Gesto")][(https://i.imgur.com/hCnoY13t.png)]
+[![Dasa & Gesto](https://i.imgur.com/BNvzBDfm.png "Dasa & Gesto")] (https://i.imgur.com/hCnoY13t.png)
 
 ### Proposta do Desafio:
 A Gesto me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
