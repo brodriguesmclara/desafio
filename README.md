@@ -1,8 +1,8 @@
 # Challenge Dasa - Google Cloud
-[![Rox partner](https://i.imgur.com/oOCOEM9.png "Rox partner")](https://roxpartner.com/ "Rox partner")
+[![Dasa & Gesto](https://i.imgur.com/oOCOEM9.png "Rox partner")](https://roxpartner.com/ "Rox partner")
 
 ### Proposta do Desafio:
-A Rox me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
+A Gesto me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
 
 #### Objetivos
 ###### Um dos requisitos do desafio é usar uma nuvem pública (Azure, AWS, GCP).
