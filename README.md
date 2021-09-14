@@ -1,8 +1,8 @@
 # Challenge Dasa - Google Cloud
-[![Dasa](https://i.imgur.com/BNvzBDfm.png "Dasa & Gesto")] (https://i.imgur.com/hCnoY13t.png "Dasa")
+[![Dasa](https://i.imgur.com/BNvzBDfm.png "Dasa & Gesto")]
 
 ### Proposta do Desafio:
-A Gesto me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
+A Dasa me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
 
 #### Objetivos
 ###### Um dos requisitos do desafio é usar uma nuvem pública (Azure, AWS, GCP).
@@ -13,7 +13,7 @@ A Gesto me propôs esse desafio para conhecer um pouco mais sobre a minha forma 
 5. Criar um relatório em qualquer ferramenta de visualização de dados. (Opcional)
 
 #### Massa de dados
-Foi disponibilizada uma massa de dados de uma empresa que produz bicicletas, os arquivos foram fornecidos no formato csv e se encontram na pasta [data_files](https://github.com/gdelmondes/challenge-rox/tree/dev/data_files "data_files")
+Foi disponibilizada uma massa de dados para este desafio, os arquivos foram fornecidos no formato csv e json, onde se  encontram na pasta [base_dados](https://github.com/brodriguesmclara/desafio/tree/main/base_dados "base_dados")
 
 #### Modelagem
 `Em desenvolvimento`
