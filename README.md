@@ -1,5 +1,5 @@
 # Challenge Dasa - Google Cloud
-[![Dasa & Gesto](https://imgur.com/BNvzBDf "Dasa & Gesto")](https://roxpartner.com/ "Rox partner")
+[![Dasa & Gesto](https://i.imgur.com/BNvzBDf.png "Dasa & Gesto")](https://roxpartner.com/ "Rox partner")
 
 ### Proposta do Desafio:
 A Gesto me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
