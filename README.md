@@ -9,10 +9,11 @@ A Dasa me propôs esse desafio para conhecer um pouco mais sobre a minha forma d
 1. Identificar os campos que possam criar um id único para cada pessoa na base de cadastro;
 2. Linkar a base de contas com a base de cadastro utilizando o id único criado com a base de cadastro;
 3. Criar uma base única de prestadores gerando os id e linkar esses id na base de contas;
-4. Apresentar as bases em um banco datawarehouse;
+4. Apresentar as bases em um banco Data Warehouse;
 
 #### Massa de dados
-Foi disponibilizada uma massa de dados de uma empresa que produz bicicletas, os arquivos foram fornecidos no formato csv e se encontram na pasta [data_files](https://github.com/gdelmondes/challenge-rox/tree/dev/data_files "data_files")
+Foi disponibilizada uma base de dados com arquivos no formato csv e json, que se encontram na pasta [base_dados]
+(https://github.com/brodriguesmclara/desafio/tree/main/base_dados "base_dados")
 
 #### Observações
 1. Você deve criar uma rotina onde seja possível o recebimento desses arquivos mensalmente;
