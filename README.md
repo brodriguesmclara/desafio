@@ -1,22 +1,24 @@
 # Challenge Dasa - Google Cloud
-[![Dasa](https://i.imgur.com/BNvzBDfm.png "Dasa & Gesto")]
+[![Dasa](https://i.imgur.com/BNvzBDfm.png "Dasa")] 
 
 ### Proposta do Desafio:
 A Dasa me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
 
 #### Objetivos
-###### Um dos requisitos do desafio é usar uma nuvem pública (Azure, AWS, GCP).
-1. Fazer a modelagem conceitual dos dados
-2. Criação da infraestrutura necessária
-3. Criação de todos os artefatos necessários para carregar os arquivos para o banco criado
-4. Desenvolvimento de scripts para análise de dados
-5. Criar um relatório em qualquer ferramenta de visualização de dados. (Opcional)
+###### O desafio consistia em criar uma pipeline de dados com seus processode de ETL e criação de um DW. A tecnologia era opcional.
+1. Identificar os campos que possam criar um id único para cada pessoa na base de cadastro;
+2. Linkar a base de contas com a base de cadastro utilizando o id único criado com a base de cadastro;
+3. Criar uma base única de prestadores gerando os id e linkar esses id na base de contas;
+4. Apresentar as bases em um banco datawarehouse;
 
 #### Massa de dados
-Foi disponibilizada uma massa de dados para este desafio, os arquivos foram fornecidos no formato csv e json, onde se  encontram na pasta [base_dados](https://github.com/brodriguesmclara/desafio/tree/main/base_dados "base_dados")
+Foi disponibilizada uma massa de dados de uma empresa que produz bicicletas, os arquivos foram fornecidos no formato csv e se encontram na pasta [data_files](https://github.com/gdelmondes/challenge-rox/tree/dev/data_files "data_files")
 
-#### Modelagem
-`Em desenvolvimento`
+#### Observações
+1. Você deve criar uma rotina onde seja possível o recebimento desses arquivos mensalmente;
+2.Deve utilizar uma ferramenta baseada em ETL (Talend Open Source, Pentaho, Apache Bean, Azure
+Data Factory, Data Flow, etc);
+3.O projeto pode ser criado em cloud ou on-premise;
 
 #### Infraestrutura
 
