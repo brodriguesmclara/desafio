@@ -103,6 +103,10 @@ Construindo infraestrutura <b>Cloud Composer</b>
   ![Imgur](https://i.imgur.com/YrcRBuv.png)
   ![Imgur](https://i.imgur.com/hzvgfRw.png)
   
+  #### Tabela Raw_Contas
+  
+  ![Imgur](https://i.imgur.com/lwqGSxV.png)
+  
 
 
 
