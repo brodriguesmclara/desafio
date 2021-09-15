@@ -68,13 +68,6 @@ Criado dataset.
 
 ![Imgur](https://i.imgur.com/43A1F0l.png)
 
-Construindo infraestrutura <b>Cloud Composer</b>
-
-![Imgur](https://i.imgur.com/0CRp9Ee.png)
-
-![Imgur](https://i.imgur.com/Ps9rI3W.png)
-
-
 ### Desenvolvimento
 
 #### Cloud Storage
