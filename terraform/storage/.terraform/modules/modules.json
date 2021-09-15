@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"gcs_buckets","Source":"terraform-google-modules/cloud-storage/google","Version":"1.7.2","Dir":".terraform/modules/gcs_buckets"}]}
