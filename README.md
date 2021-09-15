@@ -29,7 +29,7 @@ Toda a infraestrutura do desafio foi desenvolvida em terraform e feito o deploy 
 
 **Abaixo temos um desenho da arquitetura:**
 
-[![GCP](https://i.imgur.com/nRT8onwm.png "GCP")]
+[![GCP](https://i.imgur.com/nRT8onw.png) "GCP")
 
 #### Artefatos
 
