@@ -22,7 +22,7 @@ Data Factory, Data Flow, etc);
 
 **Desenho da arquitetura:**
 
-[![GCP](https://i.imgur.com/YYdYzzA.png)
+![GCP](https://i.imgur.com/YYdYzzA.png)
 
 #### Cloud Storage
 
@@ -39,7 +39,7 @@ O fluxo de orquestração da pipeline será gerenciado pelo Composer, o mesmo te
 
 ### Infraestrutura
 
-[![Terraform](https://i.imgur.com/C3p4BaE.png "Terraform")](https://www.terraform.io/ "Terraform")
+![Terraform](https://i.imgur.com/C3p4BaE.png "Terraform")](https://www.terraform.io/ "Terraform")
 
 Toda nossa infraestrutura será escrita com Terraform que é uma ferramenta para construir, alterar e configurar infraestrutura de maneira segura e eficiente. A ferramenta tem incontáveis benefícios que possibilitam criar toda a infraestrutura em ambiente de desenvolvimento e com alguns cliques conseguimos replicar tudo que foi feito para ambientes diferentes como Homologação ou Produção por exemplo, além de ser MultiCloud.
 
@@ -47,9 +47,12 @@ Toda nossa infraestrutura será escrita com Terraform que é uma ferramenta para
 Primeiramente iremos construir a infraestrutura do <b>Cloud Storage</b>
 Segue imagem:
 ![Imgur](https://i.imgur.com/0CRp9Ee.png)
-[![Imgur](https://i.imgur.com/1zzaVd2.png)
-[![Imgur](https://i.imgur.com/NFimaRW.png)
-[![Imgur](https://i.imgur.com/yVL5pYo.png)
+
+![Imgur](https://i.imgur.com/1zzaVd2.png)
+
+![Imgur](https://i.imgur.com/NFimaRW.png)
+
+![Imgur](https://i.imgur.com/yVL5pYo.png)
 
 #### Códigos 
 Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se econtram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
