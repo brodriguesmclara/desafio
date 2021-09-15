@@ -79,6 +79,12 @@ Construindo infraestrutura <b>Cloud Composer</b>
 
 #### Cloud Storage
   Foi criado um Lake para armazenar o histórico de arquivos, esses arquivos chegam na sua forma bruta dentro da pasta input_file (camada RAW) e a partir desse momento a pipeline inicia. Após o processo de ETL que será explicado a seguir, esses arquivos na sua forma bruta são enviados para uma pasta processados onde é criada uma subpasta com a data deste processamento, em paralelo esses arquivos após o processo de tratamento dos dados são enviados para uma pasta chamada output_file (camada trusted) onde estão prontos para a criação do DW.
+  
+  ![Imgur](https://i.imgur.com/WkQvJQs.png)
+  
+  ![Imgur](https://i.imgur.com/OjHvc4E.png)
+  
+  
 
 
 
