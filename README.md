@@ -61,6 +61,7 @@ Construindo infraestrutura <b>Cloud BigQuery</b>
 
 ![Imgur](https://i.imgur.com/nOM8SRO.png)
 
+Criado dataset.
 ![Imgur](https://i.imgur.com/43A1F0l.png)
 
 Construindo infraestrutura <b>Cloud Composer</b>
