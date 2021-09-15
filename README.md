@@ -96,11 +96,12 @@ Construindo infraestrutura <b>Cloud Composer</b>
   
   ### BigQuery
   
-  Foi criado um dataset chamado <b>dasa_bi<b> para criação das tabelas Contas e Cadastro. Para efeito de comparação foram criadas as tabelas Raw_Contas e Raw_Cadastro que são criadas a partir dos aquivos brutos.
+  Foi criado um dataset chamado dasa_bi para criação das tabelas Contas e Cadastro. Para efeito de comparação foram criadas as tabelas Raw_Contas e Raw_Cadastro que são criadas a partir dos aquivos brutos.
   Segue evidência:
   #### Tabela Raw_Cadastro
   
   ![Imgur](https://i.imgur.com/YrcRBuv.png)
+  ![Imgur](https://i.imgur.com/hzvgfRw.png)
   
 
 
