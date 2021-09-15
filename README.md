@@ -55,6 +55,7 @@ Segue imagem:
 ![Imgur](https://i.imgur.com/yVL5pYo.png)
 
 Construindo infraestrutura <b>Cloud BigQuery</b>
+
 ![Imgur](https://i.imgur.com/0CRp9Ee.png)
 
 ![Imgur](https://i.imgur.com/nOM8SRO.png)
