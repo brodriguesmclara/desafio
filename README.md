@@ -1,6 +1,5 @@
 # Challenge Dasa - Google Cloud
-[!(https://i.imgur.com/BNvzBDfm.png "Dasa")]
-
+[![Dasa](https://i.imgur.com/BNvzBDfm.png "Dasa")]
 ### Proposta do Desafio:
 A Dasa me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
 
@@ -28,8 +27,7 @@ Data Factory, Data Flow, etc);
 Toda a infraestrutura do desafio foi desenvolvida em terraform e feito o deploy na provedora de nuvem pública GCP.
 
 **Abaixo temos um desenho da arquitetura:**
-
-[!(https://i.imgur.com/nRT8onw.png)]
+[![GCP](https://i.imgur.com/nRT8onw.png "GCP")]
 
 #### Artefatos
 
