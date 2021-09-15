@@ -113,7 +113,10 @@ Criado dataset.
   
   ![Imgur](https://i.imgur.com/sqRQcIx.png)
   
+  #### Tabela Prestadores
   Foi criada uma Procedure que tem o objetivo de criar a tabela Prestadores a partir da tabela Contas, a chave única da tabela Prestadores é a id_prt e faz link com a tabela Contas pelo id_cnt.
+  
+  ![Imgur](https://i.imgur.com/rdyUK99.png)
   
   ### Composer
   O Cloud Composer é utilizado para fazer a automação dos processo e a movimentação dos dados, foi criado uma dag chamada dag_desafio_dasa.py que possui uma task de sensor, esse sensor monitora a pasta input_file no Cloud Storage e assim que os arquivos caem nessa pasta o sensor dispara o status de SUCCESS iniciando toda pipeline.
