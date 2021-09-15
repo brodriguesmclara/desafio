@@ -94,6 +94,9 @@ Construindo infraestrutura <b>Cloud Composer</b>
   No código pyspark responsável pelo arquivo cadastro.json, a primeira ação adotada é o flatting do arquivo para facilitar as consultas e visualização desta tabela no momento que for carregada no DW, foi criada uma coluna de chave para fazer link com a tabela de contas, foi utilizado a coluna name concatenado com os 3 primeiros caracteres da coluna email gerando a coluna ID_CAD e por fim a converte este arquivo para parquet.
   Após todo esse processo os aquivos de saída são enviados novamente para o Lake na pasta output_file e nesse momento serão enviados para o BigQuery para a criação de tabelas.
   
+  ### BigQuery
+  
+  Os arquivos devidamente tratados são carregados no BigQuery e materializando as tabelas Contas e Cadastro. 
   
 
 
