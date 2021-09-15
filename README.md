@@ -16,8 +16,7 @@ Foi disponibilizada uma base de dados com arquivos no formato csv e json, que se
 
 #### Observações
 1. Você deve criar uma rotina onde seja possível o recebimento desses arquivos mensalmente;
-2.Deve utilizar uma ferramenta baseada em ETL (Talend Open Source, Pentaho, Apache Bean, Azure
-Data Factory, Data Flow, etc);
+2.Deve utilizar uma ferramenta baseada em ETL (Talend Open Source, Pentaho, Apache Bean, Azure Data Factory, Data Flow, etc);
 3.O projeto pode ser criado em cloud ou on-premise;
 
 #### Códigos 
