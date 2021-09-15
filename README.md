@@ -77,6 +77,8 @@ Criado dataset.
   
   ![Imgur](https://i.imgur.com/WkQvJQs.png)
   
+  Subpastas para recebimento de arquivos após processamento.
+  
   ![Imgur](https://i.imgur.com/OjHvc4E.png)
   
   ![Imgur](https://i.imgur.com/VcyMjK4.png)
