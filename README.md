@@ -50,6 +50,7 @@ Segue imagem:
 
 ![Imgur](https://i.imgur.com/1zzaVd2.png)
 
+Feito criação do bucket e subpastas.
 ![Imgur](https://i.imgur.com/NFimaRW.png)
 
 ![Imgur](https://i.imgur.com/yVL5pYo.png)
