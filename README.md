@@ -77,11 +77,15 @@ Criado dataset.
   
   ![Imgur](https://i.imgur.com/WkQvJQs.png)
   
-  Subpastas para recebimento de arquivos após processamento.
-  
   ![Imgur](https://i.imgur.com/OjHvc4E.png)
   
+  Subpastas para recebimento de arquivos após processamento.
+  
   ![Imgur](https://i.imgur.com/VcyMjK4.png)
+  
+  Pasta para os arquivos devidamente tratados.
+  
+  ![Imgur](https://i.imgur.com/g2iepkg.png)
   
   #### Cloud Dataproc
   Os códigos pyspark estão no Cloud Storage no caminho dasa_saude/codigos.
