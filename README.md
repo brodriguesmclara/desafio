@@ -27,11 +27,12 @@ Data Factory, Data Flow, etc);
 Toda a infraestrutura do desafio foi desenvolvida em terraform e feito o deploy na provedora de nuvem pública GCP.
 
 **Abaixo temos um desenho da arquitetura:**
-[![GCP](https://i.imgur.com/nRT8onw.png "GCP")]
+[![GCP]([Imgur](https://i.imgur.com/YYdYzzA.png) "GCP")]
 
-#### Artefatos
+#### Deploy Terraform
+Segue abaixo as evidências da criação da infraestrutura feita via Terraform.
 
-`Em desenvolvimento`
+
 
 #### Códigos 
 Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se econtram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
