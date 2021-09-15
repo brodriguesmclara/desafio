@@ -101,9 +101,15 @@ Criado dataset.
   ![Imgur](https://i.imgur.com/lwqGSxV.png)
   
   #### Tabela Cadastro
+  Após o ETL a tabela Cadastro sofreu um flatting eliminando o array, e foi incluso um novo campo identificador único chamado id_cad que será a chave identificadora que linkará com a tabela Contas.
+  
+  ![Imgur](https://i.imgur.com/gkOX7g5.png)
+  
   #### Tabela Contas
   
   Os join entre as tabelas Cadastro e Contas é feito pelos IDs id_cnt da tabela Contas e id_cad da tabela Cadastro.
+  
+  ![Imgur](https://i.imgur.com/sqRQcIx.png)
   
   Foi criada uma Procedure que tem o objetivo de criar a tabela Prestadores a partir da tabela Contas, a chave única da tabela Prestadores é a id_prt e faz link com a tabela Contas pelo id_cnt.
   
