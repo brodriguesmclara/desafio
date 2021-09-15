@@ -96,7 +96,7 @@ Construindo infraestrutura <b>Cloud Composer</b>
   
   ### BigQuery
   
-  Os arquivos devidamente tratados são carregados no BigQuery e materializando as tabelas Contas e Cadastro. 
+  Foi criado um dataset chamado <b>dasa_bi<b> para criação das tabelas <b>Contas<b> e <b>Cadastro<b>. 
   
 
 
