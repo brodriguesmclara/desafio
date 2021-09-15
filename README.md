@@ -27,7 +27,7 @@ Data Factory, Data Flow, etc);
 Toda a infraestrutura do desafio foi desenvolvida em terraform e feito o deploy na provedora de nuvem pública GCP.
 
 **Abaixo temos um desenho da arquitetura:**
-[![GCP]([Imgur](https://i.imgur.com/YYdYzzA.png) "GCP")]
+[![GCP](https://i.imgur.com/YYdYzzA.png) "GCP")]
 
 #### Deploy Terraform
 Segue abaixo as evidências da criação da infraestrutura feita via Terraform.
