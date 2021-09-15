@@ -115,6 +115,11 @@ Criado dataset.
   
   #### Tabela Prestadores
   Foi criada uma Procedure que tem o objetivo de criar a tabela Prestadores a partir da tabela Contas, a chave única da tabela Prestadores é a id_prt e faz link com a tabela Contas pelo id_cnt.
+  Query utilizada:
+  
+  ![Imgur](https://i.imgur.com/U33DfSw.png)
+  
+  Resultado:
   
   ![Imgur](https://i.imgur.com/rdyUK99.png)
   
