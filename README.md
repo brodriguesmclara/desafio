@@ -22,6 +22,10 @@ Data Factory, Data Flow, etc);
 
 ### Infraestrutura
 
+**Abaixo temos um desenho da arquitetura:**
+
+[![GCP](https://i.imgur.com/YYdYzzA.png)
+
 #### Cloud Storage
 
 A ferramenta Cloud Storage foi escolhida como Data Lake na nossa arquitetura pois fornece armazenamento dos arquivos ou como um backup de segurança para aqueles que já estão guardados em dispositivos físicos. Isso tudo com a segurança de que seus registros mais importantes não serão perdidos, danificados ou acessados por pessoas sem autorização. O mesmo também oferece Performance otimizada, Infraestrutura virtual ilimitada, ótimo custo-benefício, sincronização instantânea entre todos os aparelhos, alta escalabilidade entre outras.
