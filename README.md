@@ -107,6 +107,23 @@ Construindo infraestrutura <b>Cloud Composer</b>
   
   ![Imgur](https://i.imgur.com/lwqGSxV.png)
   
+  #### Tabela Cadastro
+  #### Tabela Contas
+  
+  Os join entre as tabelas Cadastro e Contas é feito pelos IDs id_cnt da tabela Contas e id_cad da tabela Cadastro.
+  
+  Foi criada uma Procedure que tem o objetivo de criar a tabela Prestadores a partir da tabela Contas, a chave única da tabela Prestadores é a id_prt e faz link com a tabela Contas pelo id_cnt.
+  
+  ### Composer
+  O Cloud Composer é utilizado para fazer a automação dos processo e a movimentação dos dados, foi criado uma dag chamada dag_desafio_dasa.py que possui uma task de sensor, esse sensor monitora a pasta input_file no Cloud Storage e assim que os arquivos caem nessa pasta o sensor dispara o status de SUCCESS iniciando toda pipeline.
+  Essa dag de automação possui as seguintes tasks:
+  1. Sensor para verificação da entrada dos arquivos na pasta input_file;
+  2. Criação do cluster efêmero no Dataproc, para o processo de ETL;
+  3. Execução dos scripts pyspark, para a transformação dos arquivos contas.csv e cadastro.json, ambos executados de forma paralela;
+  4. Delete do cluste;
+  5. Carga desses arquivos já processados no DW e em paralelo a criação da subpasta processados dentro da input_file e a movimentação dos arquivos tratados para essa nova pasta;
+  6. Execução da Procedure de criação da tabela Prestadores. 
+  
 
 
 
