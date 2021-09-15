@@ -1,5 +1,5 @@
 # Challenge Dasa - Google Cloud
-![Imgur](https://i.imgur.com/hCnoY13.png) "Dasa")
+![Imgur](https://i.imgur.com/hCnoY13.png)
 ### Proposta do Desafio:
 A Dasa me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
 
