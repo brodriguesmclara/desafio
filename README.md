@@ -84,6 +84,13 @@ Construindo infraestrutura <b>Cloud Composer</b>
   
   ![Imgur](https://i.imgur.com/OjHvc4E.png)
   
+  #### Cloud Dataproc
+  Os códigos pyspark estão no Cloud Storage no caminho dasa_saude/codigos
+  Assim que os arquivos chegam no Lake é instânciada um cluster efêmero DataProc para iniciar o processo de ETL. Neste cluster será executando 2 códigos pyspark.
+  O código pyspark responsável pelos arquivos contas.csv faz a união dos 3 arquivos em apenas um dataframe, trata a coluna data para uma forma padrão corrigindo o mês em formato string para formato de número, converte os dados da coluna VALOR para decimal e na coluna PROCEDIMENTO, elimina os campos vazios inserindo os valors NAO CADASTRADO, criação de uma chave única que fará o link com a tabela cadastro, para a criação dessa chave única foi utilizado a coluna name concatenado com os 3 primeiros caracteres da coluna email gerando a coluna ID_CNT e por fim converte o arquivos para parquet, eliminando o risco de inferência de schema no momendo da carga no DW.
+  No código pyspark responsável pelo arquivo cadastro.json, a primeira ação adotada é o flatting do arquivo para facilitar as consultas e visualização desta tabela no momento que for carregada no DW, foi criada uma coluna de chave para fazer link com a tabela de contas, foi utilizado a coluna name concatenado com os 3 primeiros caracteres da coluna email gerando a coluna ID_CAD e por fim a converte este arquivo para parquet.
+  Após todo esse processo os aquivos de saída são enviados novamente para o Lake na pasta output_file e nesse momento serão enviados para o BigQuery para a criação de tabelas.
+  
   
 
 
