@@ -20,9 +20,7 @@ Foi disponibilizada uma base de dados com arquivos no formato csv e json, que se
 Data Factory, Data Flow, etc);
 3.O projeto pode ser criado em cloud ou on-premise;
 
-### Infraestrutura
-
-**Abaixo temos um desenho da arquitetura:**
+**Desenho da arquitetura:**
 
 [![GCP](https://i.imgur.com/YYdYzzA.png)
 
@@ -39,13 +37,11 @@ O BigQuery foi contemplado na nossa arquitetura porque é um data warehouse tota
 #### Composer 
 O fluxo de orquestração da pipeline será gerenciado pelo Composer, o mesmo terá o trabalho de criar um cluster Dataproc, executar um processo Spark e desligar o cluster assim que o processamento acabar, seguindo as melhores práticas do Google que faz menção sobre criar cluster no Dataproc de forma preemptiva, além de executar uma task que irá carregar os arquivos processados para o Big Query e chamará uma procedure que atualizará os dados para uma segunda camada TRUSTED com dados Particionados e Clusterizados para melhor desempenho e economia no momento da consulta de dados.
 
+### Infraestrutura
+
 [![Terraform](https://i.imgur.com/C3p4BaE.png "Terraform")](https://www.terraform.io/ "Terraform")
 
-Toda a infraestrutura do desafio foi desenvolvida em terraform e feito o deploy na provedora de nuvem pública GCP.
-
-**Abaixo temos um desenho da arquitetura:**
-
-[![GCP](https://i.imgur.com/YYdYzzA.png)
+Toda nossa infraestrutura será escrita com Terraform que é uma ferramenta para construir, alterar e configurar infraestrutura de maneira segura e eficiente. A ferramenta tem incontáveis benefícios que possibilitam criar toda a infraestrutura em ambiente de desenvolvimento e com alguns cliques conseguimos replicar tudo que foi feito para ambientes diferentes como Homologação ou Produção por exemplo, além de ser MultiCloud.
 
 #### Deploy Terraform
 Segue abaixo as evidências da criação da infraestrutura feita via Terraform.
