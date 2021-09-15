@@ -62,6 +62,12 @@ Construindo infraestrutura <b>Cloud BigQuery</b>
 
 ![Imgur](https://i.imgur.com/43A1F0l.png)
 
+Construindo infraestrutura <b>Cloud Composer</b>
+
+![Imgur](https://i.imgur.com/0CRp9Ee.png)
+
+![Imgur](https://i.imgur.com/Ps9rI3W.png)
+
 #### Códigos 
 Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se econtram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
 (https://github.com/brodriguesmclara/desafio/tree/main/terraform)
