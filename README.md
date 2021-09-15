@@ -42,7 +42,7 @@ O fluxo de orquestração da pipeline será gerenciado pelo Composer, o mesmo te
 
 ### Infraestrutura
 
-![Terraform](https://i.imgur.com/C3p4BaE.png "Terraform")](https://www.terraform.io/ "Terraform")
+![Terraform](https://i.imgur.com/C3p4BaE.png "Terraform")
 
 Toda nossa infraestrutura será escrita com Terraform que é uma ferramenta para construir, alterar e configurar infraestrutura de maneira segura e eficiente. A ferramenta tem incontáveis benefícios que possibilitam criar toda a infraestrutura em ambiente de desenvolvimento e com alguns cliques conseguimos replicar tudo que foi feito para ambientes diferentes como Homologação ou Produção por exemplo, além de ser MultiCloud.
 
