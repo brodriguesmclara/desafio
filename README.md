@@ -76,8 +76,6 @@ Criado dataset.
   
   ![Imgur](https://i.imgur.com/WkQvJQs.png)
   
-  Pasta criada após o processamento dos dados.
-  
   ![Imgur](https://i.imgur.com/OjHvc4E.png)
   
   ![Imgur](https://i.imgur.com/VcyMjK4.png)
