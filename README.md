@@ -20,6 +20,10 @@ Foi disponibilizada uma base de dados com arquivos no formato csv e json, que se
 Data Factory, Data Flow, etc);
 3.O projeto pode ser criado em cloud ou on-premise;
 
+#### Códigos 
+Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se econtram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
+(https://github.com/brodriguesmclara/desafio/tree/main/terraform)
+
 **Desenho da arquitetura:**
 
 ![GCP](https://i.imgur.com/YYdYzzA.png)
@@ -71,32 +75,9 @@ Construindo infraestrutura <b>Cloud Composer</b>
 
 ![Imgur](https://i.imgur.com/Ps9rI3W.png)
 
-#### Códigos 
-Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se econtram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
-(https://github.com/brodriguesmclara/desafio/tree/main/terraform)
 
-*Escreva uma query que retorna a quantidade de linhas na tabela Sales.SalesOrderDetail pelo campo SalesOrderID, desde que tenham pelo menos três linhas de detalhes.*
 
-`Em desenvolvimento`
 
-*Escreva uma query que ligue as tabelas Sales.SalesOrderDetail, Sales.SpecialOfferProduct e Production.Product e retorne os 3 produtos (Name) mais vendidos (pela soma de OrderQty), agrupados pelo número de dias para manufatura (DaysToManufacture).*
-
-`Em desenvolvimento`
-
-*Escreva uma query ligando as tabelas Person.Person, Sales.Customer e Sales.SalesOrderHeader de forma a obter uma lista de nomes de clientes e uma contagem de pedidos efetuados.*
-
-`Em desenvolvimento`
-
-*Escreva uma query usando as tabelas Sales.SalesOrderHeader, Sales.SalesOrderDetail e Production.Product, de forma a obter a soma total de produtos (OrderQty) por ProductID e OrderDate.*
-
-`Em desenvolvimento`
-
-*Escreva uma query mostrando os campos SalesOrderID, OrderDate e TotalDue da tabela Sales.SalesOrderHeader. Obtenha apenas as linhas onde a ordem tenha sido feita durante o mês de setembro/2011 e o total devido esteja acima de 1.000. Ordene pelo total devido decrescente.*
-
-`Em desenvolvimento`
-
-#### Relatório
-`Em desenvolvimento`
 
 
 
