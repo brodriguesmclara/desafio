@@ -4,7 +4,7 @@
 A Dasa me propôs esse desafio para conhecer um pouco mais sobre a minha forma de resolver problemas envolvendo engenharia de dados.
 
 #### Objetivos
-###### O desafio consistia em criar uma pipeline de dados com seus processode de ETL e criação de um DW. A tecnologia era opcional.
+###### O desafio consistia em criar uma pipeline de dados com seus processo de de ETL e criação de um DW. A tecnologia era opcional.
 1. Identificar os campos que possam criar um id único para cada pessoa na base de cadastro;
 2. Linkar a base de contas com a base de cadastro utilizando o id único criado com a base de cadastro;
 3. Criar uma base única de prestadores gerando os id e linkar esses id na base de contas;
@@ -20,7 +20,7 @@ Foi disponibilizada uma base de dados com arquivos no formato csv e json, que se
 3. O projeto pode ser criado em cloud ou on-premise;
 
 #### Códigos 
-Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se econtram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
+Todos os códigos usados no desenvolvimento estão segregados por tipo de funcionalidade e disponibilizadas no git hub, se encontram nas pastas pyspark (https://github.com/brodriguesmclara/desafio/tree/main/pyspark), dag (https://github.com/brodriguesmclara/desafio/tree/main/dag) e terraform 
 (https://github.com/brodriguesmclara/desafio/tree/main/terraform)
 
 **Desenho da arquitetura:**
